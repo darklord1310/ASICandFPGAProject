@@ -1,0 +1,8 @@
+C:/Users/Student/Desktop/WYY/Mux4to1_8bits/Mux4to1_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/WYY/Mux4to1_8bits/Mux4to1_8bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Mux4to1_8bits
+
+Top level modules:
+	Mux4to1_8bits
+
+} {} {}}

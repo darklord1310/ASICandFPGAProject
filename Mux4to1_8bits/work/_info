@@ -1,0 +1,39 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\91\modelsim_ase\examples
+vMux4to1_8bits
+!s100 Ekj?hXVo]4<h[Y<7^UUm;1
+IC]>a<hS48EP9lL]OeDN>K1
+VUjRi^hDg`<N?nCF93oJnJ0
+Z0 dC:\Users\Student\Desktop\WYY\Mux4to1_8bits
+w1412149111
+8C:/Users/Student/Desktop/WYY/Mux4to1_8bits/Mux4to1_8bits.v
+FC:/Users/Student/Desktop/WYY/Mux4to1_8bits/Mux4to1_8bits.v
+L0 1
+Z1 OV;L;6.5b;42
+r1
+!s85 0
+31
+!s101 -O0
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+n@mux4to1_8bits
+vMux4to1_8bits_tb
+I^;g>_TMI66Ulmoib?k3<n3
+VZcnGa=QXfgN_]Db:17Gh=2
+Z4 dC:\Users\Student\Desktop\WYY\Mux4to1_8bits
+w1412752331
+8C:/Users/Student/Desktop/WYY/Mux4to1_8bits/Mux4to1_8bits_tb.v
+FC:/Users/Student/Desktop/WYY/Mux4to1_8bits/Mux4to1_8bits_tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@mux4to1_8bits_tb
+!s100 :<T7Z8>OolJ^E]eji8F>K0
+!s85 0
+!s101 -O0

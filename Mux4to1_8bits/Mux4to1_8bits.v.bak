@@ -1,0 +1,19 @@
+module Mux4to1_8bits(selector, in1, in2,in3,in4,outData);
+
+input[1:0] selector;
+input[7:0] in1,in2,in3;
+output reg[7:0] outData;
+
+always @ (*)
+	if( selector == 2'b00)
+		outData = in1;
+	else if( selector == 2'b01)
+		outData = in2;
+	else if( selector == 2'b10)
+		outData = in3;
+	else
+		outData = 2'bXX;
+
+
+
+endmodule

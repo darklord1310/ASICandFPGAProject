@@ -1,0 +1,120 @@
+Flow report for add_three_numbers
+Wed Oct 01 11:49:04 2014
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++------------------------------------+-----------------------------------------+
+; Flow Status                        ; Successful - Wed Oct 01 11:49:03 2014   ;
+; Quartus II Version                 ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
+; Revision Name                      ; add_three_numbers                       ;
+; Top-level Entity Name              ; add_three_numbers                       ;
+; Family                             ; Cyclone II                              ;
+; Met timing requirements            ; N/A                                     ;
+; Total logic elements               ; 35 / 4,608 ( < 1 % )                    ;
+;     Total combinational functions  ; 19 / 4,608 ( < 1 % )                    ;
+;     Dedicated logic registers      ; 34 / 4,608 ( < 1 % )                    ;
+; Total registers                    ; 34                                      ;
+; Total pins                         ; 35 / 89 ( 39 % )                        ;
+; Total virtual pins                 ; 0                                       ;
+; Total memory bits                  ; 0 / 119,808 ( 0 % )                     ;
+; Embedded Multiplier 9-bit elements ; 0 / 26 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                           ;
+; Device                             ; EP2C5T144C6                             ;
+; Timing Models                      ; Final                                   ;
++------------------------------------+-----------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/01/2014 11:49:00 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; add_three_numbers   ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                    ;
++------------------------------------+---------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                           ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+---------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 180419519926451.141213534001808 ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                        ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                          ; --            ; --          ; Top            ;
+; TIMEQUEST_MULTICORNER_ANALYSIS     ; Off                             ; On            ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                             ; --            ; --          ; eda_blast_fpga ;
+; USE_TIMEQUEST_TIMING_ANALYZER      ; On                              ; Off           ; --          ; --             ;
++------------------------------------+---------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:00     ; 1.0                     ; 190 MB              ; 00:00:00                           ;
+; Fitter                    ; 00:00:01     ; 1.0                     ; 228 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 158 MB              ; 00:00:00                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 182 MB              ; 00:00:00                           ;
+; Total                     ; 00:00:02     ; --                      ; --                  ; 00:00:01                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++---------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
+; Fitter                    ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
+; Assembler                 ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
+; TimeQuest Timing Analyzer ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
++---------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off add_three_numbers -c add_three_numbers
+quartus_fit --read_settings_files=off --write_settings_files=off add_three_numbers -c add_three_numbers
+quartus_asm --read_settings_files=off --write_settings_files=off add_three_numbers -c add_three_numbers
+quartus_sta add_three_numbers -c add_three_numbers
+
+
+

@@ -1,0 +1,39 @@
+|Mux4to1_8bits
+selector[0] => Equal0.IN1
+selector[0] => Equal1.IN0
+selector[1] => Equal0.IN0
+selector[1] => Equal1.IN1
+in1[0] => outData.DATAB
+in1[1] => outData.DATAB
+in1[2] => outData.DATAB
+in1[3] => outData.DATAB
+in1[4] => outData.DATAB
+in1[5] => outData.DATAB
+in1[6] => outData.DATAB
+in1[7] => outData.DATAB
+in2[0] => outData.DATAB
+in2[1] => outData.DATAB
+in2[2] => outData.DATAB
+in2[3] => outData.DATAB
+in2[4] => outData.DATAB
+in2[5] => outData.DATAB
+in2[6] => outData.DATAB
+in2[7] => outData.DATAB
+in3[0] => outData.DATAA
+in3[1] => outData.DATAA
+in3[2] => outData.DATAA
+in3[3] => outData.DATAA
+in3[4] => outData.DATAA
+in3[5] => outData.DATAA
+in3[6] => outData.DATAA
+in3[7] => outData.DATAA
+outData[0] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+outData[1] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+outData[2] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+outData[3] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+outData[4] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+outData[5] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+outData[6] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+outData[7] <= outData.DB_MAX_OUTPUT_PORT_TYPE
+
+

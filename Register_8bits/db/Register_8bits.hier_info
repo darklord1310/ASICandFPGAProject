@@ -1,0 +1,43 @@
+|Register_8bits
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+load => out.OUTPUTSELECT
+register_input[0] => out.DATAB
+register_input[1] => out.DATAB
+register_input[2] => out.DATAB
+register_input[3] => out.DATAB
+register_input[4] => out.DATAB
+register_input[5] => out.DATAB
+register_input[6] => out.DATAB
+register_input[7] => out.DATAB
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clear => out.OUTPUTSELECT
+clear => out.OUTPUTSELECT
+clear => out.OUTPUTSELECT
+clear => out.OUTPUTSELECT
+clear => out.OUTPUTSELECT
+clear => out.OUTPUTSELECT
+clear => out.OUTPUTSELECT
+clear => out.OUTPUTSELECT
+clock => out[0]~reg0.CLK
+clock => out[1]~reg0.CLK
+clock => out[2]~reg0.CLK
+clock => out[3]~reg0.CLK
+clock => out[4]~reg0.CLK
+clock => out[5]~reg0.CLK
+clock => out[6]~reg0.CLK
+clock => out[7]~reg0.CLK
+
+

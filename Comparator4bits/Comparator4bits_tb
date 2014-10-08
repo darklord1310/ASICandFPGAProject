@@ -1,0 +1,5 @@
+module Comparator4bits_tb;
+
+// set input as register and output as wires
+register[3:0] inA,inB;
+wire reg x,y,z;

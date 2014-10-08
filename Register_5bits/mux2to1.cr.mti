@@ -1,0 +1,15 @@
+C:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits_tb.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Mux2to1_5bits_tb
+
+Top level modules:
+	Mux2to1_5bits_tb
+
+} {} {}} C:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Mux2to1_5bits
+
+Top level modules:
+	Mux2to1_5bits
+
+} {} {}}

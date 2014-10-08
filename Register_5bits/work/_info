@@ -1,0 +1,73 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Student\Desktop\WYY\Mux4to1_8bits
+vMux2to1_5bits
+I`BESZN6PSj2=?e0L[VzRV3
+VDJ[G8HMT4`1<_[l?E8bPT3
+Z0 dC:\Users\Student\Desktop\WYY\Register_5bits
+w1412150301
+8C:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits.v
+FC:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits.v
+L0 1
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+n@mux2to1_5bits
+!s100 ]m]VaBdYMo_UAR5fPkjgI2
+!s85 0
+!s101 -O0
+vMux2to1_5bits_tb
+!s100 loPKmo<6:6B0XW8>Q7fUj3
+I9<^SV7EGQ4lU8=Z?Y[[6E0
+V;GbUj?MYeYMzHAiTG1bPR3
+Z4 dC:\Users\Student\Desktop\WYY\Register_5bits
+w1412751143
+8C:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits_tb.v
+FC:/Users/Student/Desktop/WYY/Mux2to1_5bits/Mux2to1_5bits_tb.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+n@mux2to1_5bits_tb
+vRegister_5bits
+IB>YY2>;JonfE>CazCXCmi3
+VGleNZ7YU?`OFC[o2`Mchh0
+R4
+w1412755853
+8C:/Users/Student/Desktop/WYY/Register_5bits/Register_5bits.v
+FC:/Users/Student/Desktop/WYY/Register_5bits/Register_5bits.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@register_5bits
+!s100 KM3E_^Un_i^OghghjNazf0
+!s85 0
+!s101 -O0
+vRegister_5bits_tb
+IM@bB>BPcGBzZR^U_cSZ[Q2
+VL>Sd8VH?^M5oYYF4e0PSM3
+R4
+w1412755026
+8C:/Users/Student/Desktop/WYY/Register_5bits/Register_5bits_tb.v
+FC:/Users/Student/Desktop/WYY/Register_5bits/Register_5bits_tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@register_5bits_tb
+!s100 I:6BQ]TBjZl=Anf_j8IHa0
+!s85 0
+!s101 -O0

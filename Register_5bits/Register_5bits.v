@@ -6,10 +6,15 @@ output reg[4:0] out;
 
 
 always @ (posedge clock)
-	if(load == 1)
-		out <= register_in;
-	else if(clear == 1)
-		out <= 8'b00000000;
 
+	if(clear == 1 )
+    out <= 8'b00000000;
+	else
+  begin
+      if(load == 1)
+        out <= register_in;
+      else
+        out <= register_in;
+	end
 
 endmodule

@@ -1,17 +1,20 @@
-module Register_5bits(register_in, PCload, PC,clear,clock);
+module Register_5bits(register_in, load, out ,clear,clock);
 
 input[4:0] register_in;
-input PCload, clear, clock;
-output reg[4:0] PC;
+input load, clear, clock;
+output reg[4:0] out;
 
 
 always @ (posedge clock)
-	if(PCload == 1)
-		PC <= register_in;
-	else if(clear == 1)
-		PC <= 8'b00000000;
-	else
-		PC <= PC;
 
+	if(clear == 1 )
+    out <= 8'b00000000;
+	else
+  begin
+      if(load == 1)
+        out <= register_in;
+      else
+        register_in <= register_in;
+	end
 
 endmodule

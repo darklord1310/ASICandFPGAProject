@@ -14,8 +14,8 @@ begin
 //initialize all inputs
 #0 in1 = 8'd5; in2 = 8'd10; in3 = 8'd15; selector = 2'b00; //expect output=5
 #5 in1 = 8'd5; in2 = 8'd10; in3 = 8'd15; selector = 2'b01; //expect output=10
-#10 in1 = 8'd5; in2 = 8'd10; in3 = 8'd15; selector = 2'b10; //expect output=15
-#20 in1 = 8'd5; in2 = 8'd10; in3 = 8'd15; selector = 2'b11; //expect output=XX
+#5 in1 = 8'd5; in2 = 8'd10; in3 = 8'd15; selector = 2'b10; //expect output=15
+#5 in1 = 8'd5; in2 = 8'd10; in3 = 8'd15; selector = 2'b11; //expect output=XX
 
    
   

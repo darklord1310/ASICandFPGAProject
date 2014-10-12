@@ -1,0 +1,27 @@
+module Register_8bits_tb;
+
+reg load, clock,clear;
+reg [7:0] register_input;
+wire[7:0] out;
+
+
+Register_8bits testing (load, register_input, out,clear,clock);
+initial clock = 0;
+always #10 clock = ~clock;
+
+initial
+begin
+  
+#10 load = 1; clear = 0; register_input = 8'd10;  //expect out = 10
+#10 load = 0; clear = 0; register_input = 8'd0; // this is to delay the clock until the next edge
+#10 load = 0; clear = 0; register_input = 8'd0; //expect out = 10
+#10 load = 0; clear = 0; register_input = 8'd0; // this is to delay the clock until the next edge
+#10 clear = 1; load = 1; register_input = 8'd3; //expect out = 0
+#10 load = 0; clear = 0; register_input = 8'd0; // this is to delay the clock until the next edge
+#10 load = 1; clear = 0; register_in = 8'd15; // purposely fetch some value to see if clear working correctly
+#10 load = 0; clear = 0; register_in = 8'd0; // this is to delay the clock until the next edge
+#10 clear = 1; load = 0; register_input = 8'd5; //expect out = 0
+
+end
+
+endmodule

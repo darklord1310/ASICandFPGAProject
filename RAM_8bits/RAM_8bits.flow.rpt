@@ -1,5 +1,5 @@
 Flow report for RAM_8bits
-Wed Oct 08 15:28:36 2014
+Sun Oct 12 19:20:31 2014
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +------------------------------------+-----------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 08 15:28:36 2014   ;
+; Flow Status                        ; Successful - Sun Oct 12 19:20:31 2014   ;
 ; Quartus II Version                 ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                      ; RAM_8bits                               ;
 ; Top-level Entity Name              ; RAM_8bits                               ;
@@ -63,22 +63,22 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/08/2014 15:28:32 ;
+; Start date & time ; 10/12/2014 19:20:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; RAM_8bits           ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                    ;
-+------------------------------------+---------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                           ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 180419519926451.141275331202720 ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                        ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                          ; --            ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                             ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+---------------------------------+---------------+-------------+----------------+
++--------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                   ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 53027345275442.141311282611364 ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                       ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -86,11 +86,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:00     ; 1.0                     ; 198 MB              ; 00:00:01                           ;
-; Fitter                  ; 00:00:01     ; 1.0                     ; 204 MB              ; 00:00:01                           ;
-; Assembler               ; 00:00:00     ; 1.0                     ; 181 MB              ; 00:00:00                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 146 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:01     ; --                      ; --                  ; 00:00:02                           ;
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 220 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:01     ; 1.0                     ; 209 MB              ; 00:00:01                           ;
+; Assembler               ; 00:00:00     ; 1.0                     ; 194 MB              ; 00:00:00                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 156 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:02     ; --                      ; --                  ; 00:00:02                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -99,10 +99,10 @@ applicable agreement for further details.
 +-------------------------+------------------+---------------+------------+----------------+
 ; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
 +-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
-; Fitter                  ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
-; Assembler               ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
-; Classic Timing Analyzer ; user25-PC        ; Windows Vista ; 6.1        ; i686           ;
+; Analysis & Synthesis    ; MSI              ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                  ; MSI              ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler               ; MSI              ; Windows Vista ; 6.2        ; x86_64         ;
+; Classic Timing Analyzer ; MSI              ; Windows Vista ; 6.2        ; x86_64         ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 

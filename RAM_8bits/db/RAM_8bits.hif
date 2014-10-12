@@ -20,13 +20,118 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
+altsyncram_ohd1
+# storage
+db|RAM_8bits.(2).cnf
+db|RAM_8bits.(2).cnf
+# case_insensitive
+# source_file
+db|altsyncram_ohd1.tdf
+667b2441c2d2748bbfea413cb2852f8
+7
+# used_port {
+wren_a
+-1
+3
+q_b7
+-1
+3
+q_b6
+-1
+3
+q_b5
+-1
+3
+q_b4
+-1
+3
+q_b3
+-1
+3
+q_b2
+-1
+3
+q_b1
+-1
+3
+q_b0
+-1
+3
+data_a7
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clocken1
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_b4
+-1
+3
+address_b3
+-1
+3
+address_b2
+-1
+3
+address_b1
+-1
+3
+address_b0
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
 altsyncram
 # storage
 db|RAM_8bits.(1).cnf
 db|RAM_8bits.(1).cnf
 # case_insensitive
 # source_file
-|altera|91|quartus|libraries|megafunctions|altsyncram.tdf
+c:|altera|91|quartus|libraries|megafunctions|altsyncram.tdf
 11126d23236b22214ea7531dfb5e29be
 7
 # user_parameter {
@@ -327,111 +432,6 @@ address_a0
 
 # end
 # entity
-altsyncram_ohd1
-# storage
-db|RAM_8bits.(2).cnf
-db|RAM_8bits.(2).cnf
-# case_insensitive
-# source_file
-db|altsyncram_ohd1.tdf
-667b2441c2d2748bbfea413cb2852f8
-7
-# used_port {
-wren_a
--1
-3
-q_b7
--1
-3
-q_b6
--1
-3
-q_b5
--1
-3
-q_b4
--1
-3
-q_b3
--1
-3
-q_b2
--1
-3
-q_b1
--1
-3
-q_b0
--1
-3
-data_a7
--1
-3
-data_a6
--1
-3
-data_a5
--1
-3
-data_a4
--1
-3
-data_a3
--1
-3
-data_a2
--1
-3
-data_a1
--1
-3
-data_a0
--1
-3
-clocken1
--1
-3
-clock1
--1
-3
-clock0
--1
-3
-address_b4
--1
-3
-address_b3
--1
-3
-address_b2
--1
-3
-address_b1
--1
-3
-address_b0
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
-}
-# macro_sequence
-
-# end
-# entity
 RAM_8bits
 # storage
 db|RAM_8bits.(0).cnf
@@ -443,7 +443,7 @@ ON
 # case_sensitive
 # source_file
 ram_8bits.v
-6cb462d11da465fa423c55ade7a85da4
+6f17f6d49519d6ad508d71b1ee7b743a
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT

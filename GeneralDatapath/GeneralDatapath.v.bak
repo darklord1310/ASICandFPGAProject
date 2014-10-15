@@ -1,0 +1,18 @@
+module datapath(PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,clock,data_in,data_out);
+
+input PCload, JMPmux, IRload, Meminst, MemWr,Aload,Reset,Clock,Sub,clock;
+input[7:0] data_in;
+input[1:0] Asel;
+output[7:0] Aeq0,data_out;
+output Apos;
+output[2:0] IR;
+wire[7:0] RAM_out,mux4to1_out,mux2to1_out,IR_out;
+wire[4:0] increment_out, PC_out, RAM_address;
+reg[7:0] subadd_out;
+
+Mux4to1_8bits(Asel, subadd_out, data_in, RAM_out, mux4to1_out);
+
+
+
+
+endmodule

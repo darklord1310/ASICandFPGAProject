@@ -1,6 +1,6 @@
 Assembler report for GeneralDatapath
-Wed Oct 15 15:59:30 2014
-Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+Tue Nov 18 22:29:56 2014
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -10,8 +10,8 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.sof
-  6. Assembler Device Options: C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.pof
+  5. Assembler Device Options: E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.sof
+  6. Assembler Device Options: E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.pof
   7. Assembler Messages
 
 
@@ -19,7 +19,7 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2009 Altera Corporation
+Copyright (C) 1991-2013 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Oct 15 15:59:30 2014 ;
+; Assembler Status      ; Successful - Tue Nov 18 22:29:56 2014 ;
 ; Revision Name         ; GeneralDatapath                       ;
 ; Top-level Entity Name ; datapath                              ;
 ; Family                ; Cyclone II                            ;
@@ -59,7 +59,7 @@ applicable agreement for further details.
 ; Clock source for configuration device                                       ; Internal ; Internal      ;
 ; Clock frequency of the configuration device                                 ; 10 MHZ   ; 10 MHz        ;
 ; Divide clock frequency by                                                   ; 1        ; 1             ;
-; Auto user code                                                              ; Off      ; Off           ;
+; Auto user code                                                              ; On       ; On            ;
 ; Use configuration device                                                    ; On       ; On            ;
 ; Configuration device                                                        ; Auto     ; Auto          ;
 ; Configuration device auto user code                                         ; Off      ; Off           ;
@@ -78,52 +78,52 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------------------------------------------------------------+
-; Assembler Generated Files                                                       ;
-+---------------------------------------------------------------------------------+
-; File Name                                                                       ;
-+---------------------------------------------------------------------------------+
-; C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.sof ;
-; C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.pof ;
-+---------------------------------------------------------------------------------+
++-------------------------------------------------------------------+
+; Assembler Generated Files                                         ;
++-------------------------------------------------------------------+
+; File Name                                                         ;
++-------------------------------------------------------------------+
+; E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.sof ;
+; E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.pof ;
++-------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.sof ;
-+----------------+------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                  ;
-+----------------+------------------------------------------------------------------------------------------+
-; Device         ; EP2C15AF484C7                                                                            ;
-; JTAG usercode  ; 0xFFFFFFFF                                                                               ;
-; Checksum       ; 0x001BB9B2                                                                               ;
-+----------------+------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.sof ;
++----------------+----------------------------------------------------------------------------+
+; Option         ; Setting                                                                    ;
++----------------+----------------------------------------------------------------------------+
+; Device         ; EP2C15AF484C7                                                              ;
+; JTAG usercode  ; 0x001BAC12                                                                 ;
+; Checksum       ; 0x001BAC12                                                                 ;
++----------------+----------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.pof ;
-+--------------------+--------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                              ;
-+--------------------+--------------------------------------------------------------------------------------+
-; Device             ; EPCS16                                                                               ;
-; JTAG usercode      ; 0x00000000                                                                           ;
-; Checksum           ; 0x1DD88E40                                                                           ;
-; Compression Ratio  ; 3                                                                                    ;
-+--------------------+--------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.pof ;
++--------------------+------------------------------------------------------------------------+
+; Option             ; Setting                                                                ;
++--------------------+------------------------------------------------------------------------+
+; Device             ; EPCS16                                                                 ;
+; JTAG usercode      ; 0x00000000                                                             ;
+; Checksum           ; 0x1DD7BDF0                                                             ;
+; Compression Ratio  ; 3                                                                      ;
++--------------------+------------------------------------------------------------------------+
 
 
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II Assembler
-    Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Wed Oct 15 15:59:29 2014
+Info: Running Quartus II 64-Bit Assembler
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Tue Nov 18 22:29:55 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off GeneralDatapath -c GeneralDatapath
-Info: Writing out detailed assembly data for power analysis
-Info: Assembler is generating device programming files
-Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 211 megabytes
-    Info: Processing ended: Wed Oct 15 15:59:30 2014
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 415 megabytes
+    Info: Processing ended: Tue Nov 18 22:29:56 2014
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

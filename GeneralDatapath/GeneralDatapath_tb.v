@@ -15,30 +15,39 @@ datapath testing (PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,
 
 
 initial clock = 0;
-always @ #5 clock = ~clock;
+always #5 clock = ~clock;
 
 
 
 initial
 begin
 
-//start
-#0  IRload = 0; JMPmux = 0; PCload = 0; Meminst = 0; MemWr = 0; Asel = 2'b00; Aload = 0; Sub = 0; data_in = 8'd5;
+//clear everything
+#0  Reset = 1;  //expect Aeq0 =1, Apos = 1, IR = 0, data_out = 0
 
-//fetch
-#10  IRload = 1; JMPmux = 0; PCload = 1; Meminst = 0; MemWr = 0; Asel = 2'b00; Aload = 0; Sub = 0; data_in = 8'd5;
+//write 80 into register A and load it to RAM address 0 and increase the RAM pointer to 1
+#10  Asel = 2'b01 ; Aload = 1; Meminst = 1 ; MemWr = 1; PCload = 1; JMPmux = 1; IRload = 0; data_in = 8'd80;   // expect Aeq0 = 0, Apos = 1, IR = 0, data_out = 80 
 
-//decode
-#10  IRload = 0; JMPmux = 0; PCload = 0; Meminst = 1; MemWr = 0; Asel = 2'b00; Aload = 0; Sub = 0; 
+//write 75 into register A and load it to RAM address 1 and increase RAM pointer to 2
+#10  Asel = 2'b01 ; Aload = 1; Meminst = 0 ; MemWr = 1; PCload = 1; JMPmux = 0; IRload = 0; data_in = 8'd75;   // expect Aeq0 = 0, Apos = 1, IR = 0, data_out = 75
 
-//load
-#10  IRload = 0; JMPmux = 0; PCload = 0; Meminst = 0; MemWr = 0; Asel = 2'b10; Aload = 1; Sub = 0; 
+//read 80 from RAM address 0 and subtract 80 from 75
+#10  MemWr = 0; Meminst = 1; Sub = 1; PCload = 1; JMPmux = 0;  //expect Aeq0 = 0, Apos = 1; data_out = 75, IR = 0
 
-//store
-#10  IRload = 0; JMPmux = 0; PCload = 0; Meminst = 1; MemWr = 1; Asel = 2'b00; Aload = 0; Sub = 0; 
+//load -5 into register A and  write -5 to RAM address 3
+#10  Asel = 2'b00; Aload = 1; MemWr = 1; Meminst = 0; //expect Aeq0 = 0, Apos = 0, data_out = -5, IR = 0
 
-//add
-#10  IRload = 0; JMPmux = 0; PCload = 0; Meminst = 0; MemWr = 0; Asel = 2'b00; Aload = 1; Sub = 0; 
+//read -5 from RAM address 3 and add with -5 
+#10  Meminst = 0; MemWr = 0; Sub = 0; // expect Aeq0 = 0, Apos = 0, data_out = -5, IR = 0
+
+//load -10 into register A 
+#10  Asel = 2'b00; Aload = 1; //expect Aeq0 = 0; Apos = 0; data_out = -10, IR = 0
+
+//load the -5 into IR register and load -5 into register A
+#10  Asel = 2'b10; Aload = 1; IRload = 1; //expect Apos = 0, Aeq0 = 0, data_output = -5, IR = 1
+
+//write -5 into RAM address 11011
+#10  Meminst = 0; MemWr = 1;  //expect Apos = 0, Aeq0 = 0, data_output = -5
 
 end
 endmodule

@@ -1,0 +1,57 @@
+C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module RAM_8bits
+
+Top level modules:
+	RAM_8bits
+
+} {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Mux2to1_5bits
+
+Top level modules:
+	Mux2to1_5bits
+
+} {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Register_8bits
+
+Top level modules:
+	Register_8bits
+
+} {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/Register_8bits/Register_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/Register_8bits/Register_8bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Register_8bits
+
+Top level modules:
+	Register_8bits
+
+} {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Mux4to1_8bits
+
+Top level modules:
+	Mux4to1_8bits
+
+} {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_5bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_5bits.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Register_5bits
+
+Top level modules:
+	Register_5bits
+
+} {} {}}

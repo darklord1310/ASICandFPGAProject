@@ -26,9 +26,9 @@ Aeq0[5] <= <GND>
 Aeq0[6] <= <GND>
 Aeq0[7] <= <GND>
 Apos <= data_out[7].DB_MAX_OUTPUT_PORT_TYPE
-IR[0] <= Register_8bits:comb_34.port2
-IR[1] <= Register_8bits:comb_34.port2
-IR[2] <= Register_8bits:comb_34.port2
+IR[0] <= Register_8bits:registerIR.port2
+IR[1] <= Register_8bits:registerIR.port2
+IR[2] <= Register_8bits:registerIR.port2
 clock => clock.IN4
 data_in[0] => data_in[0].IN1
 data_in[1] => data_in[1].IN1
@@ -48,7 +48,7 @@ data_out[6] <= data_out[6].DB_MAX_OUTPUT_PORT_TYPE
 data_out[7] <= data_out[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|datapath|Mux4to1_8bits:comb_3
+|datapath|Mux4to1_8bits:Aselector
 selector[0] => Equal0.IN1
 selector[0] => Equal1.IN0
 selector[1] => Equal0.IN0
@@ -87,7 +87,7 @@ outData[6] <= outData.DB_MAX_OUTPUT_PORT_TYPE
 outData[7] <= outData.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|datapath|Register_8bits:comb_4
+|datapath|Register_8bits:registerA
 load => out.OUTPUTSELECT
 load => out.OUTPUTSELECT
 load => out.OUTPUTSELECT
@@ -130,7 +130,7 @@ clock => out[6]~reg0.CLK
 clock => out[7]~reg0.CLK
 
 
-|datapath|Register_8bits:comb_34
+|datapath|Register_8bits:registerIR
 load => out.OUTPUTSELECT
 load => out.OUTPUTSELECT
 load => out.OUTPUTSELECT
@@ -173,7 +173,7 @@ clock => out[6]~reg0.CLK
 clock => out[7]~reg0.CLK
 
 
-|datapath|Mux2to1_5bits:comb_38
+|datapath|Mux2to1_5bits:JMPMUX
 in0[0] => outData.DATAA
 in0[1] => outData.DATAA
 in0[2] => outData.DATAA
@@ -196,7 +196,7 @@ outData[3] <= outData.DB_MAX_OUTPUT_PORT_TYPE
 outData[4] <= outData.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|datapath|Register_5bits:comb_39
+|datapath|Register_5bits:registerPC
 register_in[0] => out.DATAB
 register_in[1] => out.DATAB
 register_in[2] => out.DATAB
@@ -224,7 +224,7 @@ clock => out[3]~reg0.CLK
 clock => out[4]~reg0.CLK
 
 
-|datapath|Mux2to1_5bits:comb_41
+|datapath|Mux2to1_5bits:MeminstRegister
 in0[0] => outData.DATAA
 in0[1] => outData.DATAA
 in0[2] => outData.DATAA
@@ -247,7 +247,7 @@ outData[3] <= outData.DB_MAX_OUTPUT_PORT_TYPE
 outData[4] <= outData.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|datapath|RAM_8bits:comb_42
+|datapath|RAM_8bits:RAM
 address[0] => RAM.waddr_a[0].DATAIN
 address[0] => RAM.WADDR
 address[0] => RAM.RADDR
@@ -263,9 +263,6 @@ address[3] => RAM.RADDR3
 address[4] => RAM.waddr_a[4].DATAIN
 address[4] => RAM.WADDR4
 address[4] => RAM.RADDR4
-address[5] => ~NO_FANOUT~
-address[6] => ~NO_FANOUT~
-address[7] => ~NO_FANOUT~
 WE => RAM.we_a.DATAIN
 WE => dataOut[0]~reg0.ENA
 WE => dataOut[1]~reg0.ENA

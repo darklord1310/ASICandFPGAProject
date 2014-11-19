@@ -1,5 +1,5 @@
 Fitter report for RAM_8bits
-Sun Oct 12 19:20:29 2014
+Wed Nov 19 14:32:22 2014
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -57,7 +57,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Fitter Summary                                                               ;
 +------------------------------------+-----------------------------------------+
-; Fitter Status                      ; Successful - Sun Oct 12 19:20:29 2014   ;
+; Fitter Status                      ; Successful - Wed Nov 19 14:32:22 2014   ;
 ; Quartus II Version                 ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                      ; RAM_8bits                               ;
 ; Top-level Entity Name              ; RAM_8bits                               ;
@@ -68,7 +68,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 0 / 4,608 ( 0 % )                       ;
 ;     Dedicated logic registers      ; 0 / 4,608 ( 0 % )                       ;
 ; Total registers                    ; 0                                       ;
-; Total pins                         ; 26 / 89 ( 29 % )                        ;
+; Total pins                         ; 23 / 89 ( 26 % )                        ;
 ; Total virtual pins                 ; 0                                       ;
 ; Total memory bits                  ; 256 / 119,808 ( < 1 % )                 ;
 ; Embedded Multiplier 9-bit elements ; 0 / 26 ( 0 % )                          ;
@@ -144,8 +144,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Type                    ; Value              ;
 +-------------------------+--------------------+
 ; Placement               ;                    ;
-;     -- Requested        ; 0 / 39 ( 0.00 % )  ;
-;     -- Achieved         ; 0 / 39 ( 0.00 % )  ;
+;     -- Requested        ; 0 / 36 ( 0.00 % )  ;
+;     -- Achieved         ; 0 / 36 ( 0.00 % )  ;
 ;                         ;                    ;
 ; Routing (by Connection) ;                    ;
 ;     -- Requested        ; 0 / 0 ( 0.00 % )   ;
@@ -167,14 +167,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +----------------+---------+-------------------+-------------------------+-------------------+
-; Top            ; 39      ; 0                 ; N/A                     ; Source File       ;
+; Top            ; 36      ; 0                 ; N/A                     ; Source File       ;
 +----------------+---------+-------------------+-------------------------+-------------------+
 
 
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFPGAProject/RAM_8bits/RAM_8bits.pin.
+The pin-out file can be found in C:/Users/Student/Desktop/ASICandFPGAProject/RAM_8bits/RAM_8bits.pin.
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -204,7 +204,7 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; Total LABs:  partially or completely used   ; 0 / 288 ( 0 % )                                                  ;
 ; User inserted logic elements                ; 0                                                                ;
 ; Virtual pins                                ; 0                                                                ;
-; I/O pins                                    ; 26 / 89 ( 29 % )                                                 ;
+; I/O pins                                    ; 23 / 89 ( 26 % )                                                 ;
 ;     -- Clock pins                           ; 3 / 4 ( 75 % )                                                   ;
 ; Global signals                              ; 1                                                                ;
 ; M4Ks                                        ; 1 / 26 ( 4 % )                                                   ;
@@ -223,7 +223,7 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; Highest non-global fan-out signal           ; WE                                                               ;
 ; Highest non-global fan-out                  ; 3                                                                ;
 ; Total fan-out                               ; 24                                                               ;
-; Average fan-out                             ; 0.77                                                             ;
+; Average fan-out                             ; 0.86                                                             ;
 +---------------------------------------------+------------------------------------------------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -234,24 +234,21 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 +------------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; Name       ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +------------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
-; WE         ; 86    ; 3        ; 28           ; 6            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[0] ; 75    ; 3        ; 28           ; 2            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[1] ; 87    ; 3        ; 28           ; 6            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[2] ; 88    ; 3        ; 28           ; 7            ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[3] ; 89    ; 3        ; 28           ; 7            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[4] ; 90    ; 3        ; 28           ; 7            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[5] ; 47    ; 4        ; 5            ; 0            ; 1           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[6] ; 94    ; 3        ; 28           ; 9            ; 2           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; address[7] ; 53    ; 4        ; 9            ; 0            ; 1           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; WE         ; 64    ; 4        ; 21           ; 0            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; address[0] ; 81    ; 3        ; 28           ; 5            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; address[1] ; 75    ; 3        ; 28           ; 2            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; address[2] ; 87    ; 3        ; 28           ; 6            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; address[3] ; 79    ; 3        ; 28           ; 5            ; 4           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; address[4] ; 93    ; 3        ; 28           ; 8            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; clock      ; 17    ; 1        ; 0            ; 6            ; 0           ; 1                     ; 0                  ; yes    ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; dataIn[0]  ; 79    ; 3        ; 28           ; 5            ; 4           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; dataIn[1]  ; 91    ; 3        ; 28           ; 7            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; dataIn[2]  ; 92    ; 3        ; 28           ; 8            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; dataIn[3]  ; 74    ; 3        ; 28           ; 1            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; dataIn[4]  ; 93    ; 3        ; 28           ; 8            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; dataIn[0]  ; 80    ; 3        ; 28           ; 5            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; dataIn[1]  ; 88    ; 3        ; 28           ; 7            ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; dataIn[2]  ; 89    ; 3        ; 28           ; 7            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; dataIn[3]  ; 90    ; 3        ; 28           ; 7            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; dataIn[4]  ; 91    ; 3        ; 28           ; 7            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; dataIn[5]  ; 73    ; 3        ; 28           ; 1            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; dataIn[6]  ; 81    ; 3        ; 28           ; 5            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; dataIn[7]  ; 80    ; 3        ; 28           ; 5            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; dataIn[6]  ; 86    ; 3        ; 28           ; 6            ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; dataIn[7]  ; 74    ; 3        ; 28           ; 1            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 +------------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
@@ -260,14 +257,14 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 +------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 ; Name       ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
 +------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; dataOut[0] ; 8     ; 1        ; 0            ; 11           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; dataOut[1] ; 28    ; 1        ; 0            ; 4            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; dataOut[2] ; 119   ; 2        ; 21           ; 14           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; dataOut[3] ; 27    ; 1        ; 0            ; 5            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; dataOut[4] ; 24    ; 1        ; 0            ; 5            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; dataOut[5] ; 26    ; 1        ; 0            ; 5            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; dataOut[6] ; 9     ; 1        ; 0            ; 11           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; dataOut[7] ; 64    ; 4        ; 21           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[0] ; 59    ; 4        ; 14           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[1] ; 26    ; 1        ; 0            ; 5            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[2] ; 72    ; 4        ; 26           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[3] ; 28    ; 1        ; 0            ; 4            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[4] ; 134   ; 2        ; 7            ; 14           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[5] ; 30    ; 1        ; 0            ; 2            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[6] ; 31    ; 1        ; 0            ; 2            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; dataOut[7] ; 27    ; 1        ; 0            ; 5            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 +------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
@@ -276,9 +273,9 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 +----------+------------------+---------------+--------------+
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
-; 1        ; 9 / 19 ( 47 % )  ; 3.3V          ; --           ;
+; 1        ; 8 / 19 ( 42 % )  ; 3.3V          ; --           ;
 ; 2        ; 1 / 23 ( 4 % )   ; 3.3V          ; --           ;
-; 3        ; 16 / 23 ( 70 % ) ; 3.3V          ; --           ;
+; 3        ; 14 / 23 ( 61 % ) ; 3.3V          ; --           ;
 ; 4        ; 3 / 24 ( 13 % )  ; 3.3V          ; --           ;
 +----------+------------------+---------------+--------------+
 
@@ -295,8 +292,8 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; 5        ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 6        ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 7        ; 10         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 8        ; 11         ; 1        ; dataOut[0]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 9        ; 12         ; 1        ; dataOut[6]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 8        ; 11         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 9        ; 12         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 10       ; 13         ; 1        ; #TDO                                     ; output ;              ;         ; --         ;                 ; --       ; --           ;
 ; 11       ; 14         ; 1        ; #TMS                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; 12       ; 15         ; 1        ; #TCK                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
@@ -311,14 +308,14 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; 21       ; 23         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; 22       ; 24         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; 23       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; 24       ; 25         ; 1        ; dataOut[4]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 24       ; 25         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 25       ; 26         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 26       ; 27         ; 1        ; dataOut[5]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 27       ; 28         ; 1        ; dataOut[3]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 28       ; 32         ; 1        ; dataOut[1]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 26       ; 27         ; 1        ; dataOut[1]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 27       ; 28         ; 1        ; dataOut[7]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 28       ; 32         ; 1        ; dataOut[3]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 29       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; 30       ; 40         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 31       ; 41         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 30       ; 40         ; 1        ; dataOut[5]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 31       ; 41         ; 1        ; dataOut[6]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 32       ; 42         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 33       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 34       ;            ;          ; GND_PLL1                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -334,24 +331,24 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; 44       ; 47         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 45       ; 48         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 46       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; 47       ; 49         ; 4        ; address[5]                               ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 47       ; 49         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 48       ; 50         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 49       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 50       ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; 51       ; 52         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 52       ; 53         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 53       ; 57         ; 4        ; address[7]                               ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 53       ; 57         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 54       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 55       ; 58         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 56       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 57       ; 59         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 58       ; 60         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 59       ; 63         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 59       ; 63         ; 4        ; dataOut[0]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; 60       ; 64         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 61       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 62       ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; 63       ; 72         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 64       ; 75         ; 4        ; dataOut[7]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 64       ; 75         ; 4        ; WE                                       ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; 65       ; 76         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 66       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 67       ; 79         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -359,29 +356,29 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; 69       ; 80         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 70       ; 81         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 71       ; 82         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 72       ; 83         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 72       ; 83         ; 4        ; dataOut[2]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; 73       ; 84         ; 3        ; dataIn[5]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 74       ; 85         ; 3        ; dataIn[3]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 75       ; 86         ; 3        ; address[0]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 74       ; 85         ; 3        ; dataIn[7]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 75       ; 86         ; 3        ; address[1]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 76       ; 87         ; 3        ; ~LVDS41p/nCEO~                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 77       ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 78       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; 79       ; 95         ; 3        ; dataIn[0]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 80       ; 97         ; 3        ; dataIn[7]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 81       ; 98         ; 3        ; dataIn[6]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 79       ; 95         ; 3        ; address[3]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 80       ; 97         ; 3        ; dataIn[0]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 81       ; 98         ; 3        ; address[0]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 82       ; 99         ; 3        ; ^nSTATUS                                 ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; 83       ; 100        ; 3        ; ^CONF_DONE                               ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; 84       ; 101        ; 3        ; ^MSEL1                                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; 85       ; 102        ; 3        ; ^MSEL0                                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; 86       ; 103        ; 3        ; WE                                       ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 87       ; 104        ; 3        ; address[1]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 88       ; 105        ; 3        ; address[2]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 89       ; 106        ; 3        ; address[3]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 90       ; 107        ; 3        ; address[4]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 91       ; 108        ; 3        ; dataIn[1]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 92       ; 109        ; 3        ; dataIn[2]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 93       ; 110        ; 3        ; dataIn[4]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 94       ; 111        ; 3        ; address[6]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 86       ; 103        ; 3        ; dataIn[6]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 87       ; 104        ; 3        ; address[2]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 88       ; 105        ; 3        ; dataIn[1]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 89       ; 106        ; 3        ; dataIn[2]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 90       ; 107        ; 3        ; dataIn[3]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 91       ; 108        ; 3        ; dataIn[4]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 92       ; 109        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 93       ; 110        ; 3        ; address[4]                               ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 94       ; 111        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 95       ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 96       ; 112        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 97       ; 113        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -406,7 +403,7 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; 116      ;            ; 2        ; VCCIO2                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; 117      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 118      ; 134        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 119      ; 135        ; 2        ; dataOut[2]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 119      ; 135        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 120      ; 137        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 121      ; 138        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 122      ; 139        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -421,7 +418,7 @@ The pin-out file can be found in E:/Yan Yin/ASIC and FPGA Mini Project/ASICandFP
 ; 131      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; 132      ; 153        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 133      ; 154        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 134      ; 155        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 134      ; 155        ; 2        ; dataOut[4]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; 135      ; 162        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 136      ; 163        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 137      ; 164        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -478,7 +475,7 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node             ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                            ; Library Name ;
 +----------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------------------+--------------+
-; |RAM_8bits                             ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 256         ; 1    ; 0            ; 0       ; 0         ; 26   ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |RAM_8bits                                                     ; work         ;
+; |RAM_8bits                             ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 256         ; 1    ; 0            ; 0       ; 0         ; 23   ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |RAM_8bits                                                     ; work         ;
 ;    |altsyncram:RAM_rtl_0|              ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 256         ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |RAM_8bits|altsyncram:RAM_rtl_0                                ;              ;
 ;       |altsyncram_ohd1:auto_generated| ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 256         ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |RAM_8bits|altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated ;              ;
 +----------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------------------+--------------+
@@ -490,9 +487,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------+----------+---------------+---------------+-----------------------+-----+
 ; Name       ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
 +------------+----------+---------------+---------------+-----------------------+-----+
-; address[5] ; Input    ; (0) 287 ps    ; (0) 287 ps    ; --                    ; --  ;
-; address[6] ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
-; address[7] ; Input    ; (0) 287 ps    ; (0) 287 ps    ; --                    ; --  ;
 ; dataOut[0] ; Output   ; --            ; --            ; --                    ; --  ;
 ; dataOut[1] ; Output   ; --            ; --            ; --                    ; --  ;
 ; dataOut[2] ; Output   ; --            ; --            ; --                    ; --  ;
@@ -501,18 +495,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; dataOut[5] ; Output   ; --            ; --            ; --                    ; --  ;
 ; dataOut[6] ; Output   ; --            ; --            ; --                    ; --  ;
 ; dataOut[7] ; Output   ; --            ; --            ; --                    ; --  ;
-; WE         ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; WE         ; Input    ; (6) 4114 ps   ; (6) 4114 ps   ; --                    ; --  ;
 ; clock      ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
 ; dataIn[0]  ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
 ; address[0] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
 ; address[1] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
-; address[2] ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
-; address[3] ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
-; address[4] ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
+; address[2] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; address[3] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; address[4] ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
 ; dataIn[1]  ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
-; dataIn[2]  ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
-; dataIn[3]  ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
-; dataIn[4]  ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
+; dataIn[2]  ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
+; dataIn[3]  ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
+; dataIn[4]  ; Input    ; (0) 299 ps    ; (0) 299 ps    ; --                    ; --  ;
 ; dataIn[5]  ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
 ; dataIn[6]  ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
 ; dataIn[7]  ; Input    ; (6) 4075 ps   ; (6) 4075 ps   ; --                    ; --  ;
@@ -524,16 +518,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------------+-------------------+---------+
 ; Source Pin / Fanout                                                     ; Pad To Core Index ; Setting ;
 +-------------------------------------------------------------------------+-------------------+---------+
-; address[5]                                                              ;                   ;         ;
-; address[6]                                                              ;                   ;         ;
-; address[7]                                                              ;                   ;         ;
 ; WE                                                                      ;                   ;         ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
 ; clock                                                                   ;                   ;         ;
 ; dataIn[0]                                                               ;                   ;         ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
 ; address[0]                                                              ;                   ;         ;
 ;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
@@ -541,17 +532,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ; address[2]                                                              ;                   ;         ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ; address[3]                                                              ;                   ;         ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ; address[4]                                                              ;                   ;         ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
 ; dataIn[1]                                                               ;                   ;         ;
 ; dataIn[2]                                                               ;                   ;         ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ; dataIn[3]                                                               ;                   ;         ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
 ; dataIn[4]                                                               ;                   ;         ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ; dataIn[5]                                                               ;                   ;         ;
-;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
+;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
 ; dataIn[6]                                                               ;                   ;         ;
 ;      - altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
 ; dataIn[7]                                                               ;                   ;         ;
@@ -564,7 +558,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------+----------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
 ; Name  ; Location ; Fan-Out ; Usage                      ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +-------+----------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
-; WE    ; PIN_86   ; 1       ; Clock enable, Write enable ; no     ; --                   ; --               ; --                        ;
+; WE    ; PIN_64   ; 1       ; Clock enable, Write enable ; no     ; --                   ; --               ; --                        ;
 ; clock ; PIN_17   ; 1       ; Clock                      ; yes    ; Global Clock         ; GCLK2            ; --                        ;
 +-------+----------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
 
@@ -613,7 +607,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------+------+------------------+-------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+------------+
 ; Name                                                           ; Type ; Mode             ; Clock Mode  ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Port A Input Registers ; Port A Output Registers ; Port B Input Registers ; Port B Output Registers ; Size ; Implementation Port A Depth ; Implementation Port A Width ; Implementation Port B Depth ; Implementation Port B Width ; Implementation Bits ; M4Ks ; MIF  ; Location   ;
 +----------------------------------------------------------------+------+------------------+-------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+------------+
-; altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; Dual Clocks ; 32           ; 8            ; 32           ; 8            ; yes                    ; no                      ; yes                    ; no                      ; 256  ; 32                          ; 8                           ; 32                          ; 8                           ; 256                 ; 1    ; None ; M4K_X23_Y6 ;
+; altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; Dual Clocks ; 32           ; 8            ; 32           ; 8            ; yes                    ; no                      ; yes                    ; no                      ; 256  ; 32                          ; 8                           ; 32                          ; 8                           ; 256                 ; 1    ; None ; M4K_X23_Y4 ;
 +----------------------------------------------------------------+------+------------------+-------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+------------+
 Note: Fitter may spread logical memories into multiple blocks to improve timing. The actual required RAM blocks can be found in the Fitter Resource Usage section.
 
@@ -625,12 +619,12 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +----------------------------+-----------------------+
 ; Block interconnects        ; 22 / 15,666 ( < 1 % ) ;
 ; C16 interconnects          ; 0 / 812 ( 0 % )       ;
-; C4 interconnects           ; 26 / 11,424 ( < 1 % ) ;
+; C4 interconnects           ; 22 / 11,424 ( < 1 % ) ;
 ; Direct links               ; 0 / 15,666 ( 0 % )    ;
 ; Global clocks              ; 1 / 8 ( 13 % )        ;
 ; Local interconnects        ; 0 / 4,608 ( 0 % )     ;
-; R24 interconnects          ; 4 / 652 ( < 1 % )     ;
-; R4 interconnects           ; 43 / 13,328 ( < 1 % ) ;
+; R24 interconnects          ; 1 / 652 ( < 1 % )     ;
+; R4 interconnects           ; 54 / 13,328 ( < 1 % ) ;
 +----------------------------+-----------------------+
 
 
@@ -676,7 +670,7 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Sun Oct 12 19:20:28 2014
+    Info: Processing started: Wed Nov 19 14:32:21 2014
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off RAM_8bits -c RAM_8bits
 Info: Automatically selected device EP2C5T144C6 for design RAM_8bits
 Info: Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
@@ -688,10 +682,7 @@ Info: Fitter converted 3 user pins into dedicated programming pins
     Info: Pin ~nCSO~ is reserved at location 2
     Info: Pin ~LVDS41p/nCEO~ is reserved at location 76
 Info: Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
-Critical Warning: No exact pin location assignment(s) for 26 pins of 26 total pins
-    Info: Pin address[5] not assigned to an exact location on the device
-    Info: Pin address[6] not assigned to an exact location on the device
-    Info: Pin address[7] not assigned to an exact location on the device
+Critical Warning: No exact pin location assignment(s) for 23 pins of 23 total pins
     Info: Pin dataOut[0] not assigned to an exact location on the device
     Info: Pin dataOut[1] not assigned to an exact location on the device
     Info: Pin dataOut[2] not assigned to an exact location on the device
@@ -729,7 +720,7 @@ Extra Info: Finished moving registers into I/O cells, Multiplier Blocks, and RAM
 Info: Finished register packing
     Extra Info: No registers were packed into other blocks
 Info: Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info: Number of I/O pins in group: 25 (unused VREF, 3.3V VCCIO, 17 input, 8 output, 0 bidirectional)
+    Info: Number of I/O pins in group: 22 (unused VREF, 3.3V VCCIO, 14 input, 8 output, 0 bidirectional)
         Info: I/O standards used: 3.3-V LVTTL.
 Info: I/O bank details before I/O pin placement
     Info: Statistics of I/O banks
@@ -744,8 +735,8 @@ Info: Fitter placement operations beginning
 Info: Fitter placement was successful
 Info: Fitter placement operations ending: elapsed time is 00:00:00
 Info: Estimated most critical path is memory to memory delay of 2.645 ns
-    Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = M4K_X23_Y6; Fanout = 1; MEM Node = 'altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0~porta_datain_reg0'
-    Info: 2: + IC(0.000 ns) + CELL(2.645 ns) = 2.645 ns; Loc. = M4K_X23_Y6; Fanout = 0; MEM Node = 'altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0~porta_memory_reg0'
+    Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = M4K_X23_Y4; Fanout = 1; MEM Node = 'altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0~porta_datain_reg0'
+    Info: 2: + IC(0.000 ns) + CELL(2.645 ns) = 2.645 ns; Loc. = M4K_X23_Y4; Fanout = 0; MEM Node = 'altsyncram:RAM_rtl_0|altsyncram_ohd1:auto_generated|ram_block1a0~porta_memory_reg0'
     Info: Total cell delay = 2.645 ns ( 100.00 % )
 Info: Fitter routing operations beginning
 Info: Average interconnect usage is 0% of the available device resources
@@ -767,9 +758,9 @@ Warning: Found 8 output pins without output pin load capacitance assignment
 Info: Delay annotation completed successfully
 Info: Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
-Info: Quartus II Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 223 megabytes
-    Info: Processing ended: Sun Oct 12 19:20:29 2014
+Info: Quartus II Fitter was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 214 megabytes
+    Info: Processing ended: Wed Nov 19 14:32:22 2014
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

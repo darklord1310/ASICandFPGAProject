@@ -1,1 +1,2 @@
 Info (10281): Verilog HDL Declaration information at GeneralDatapath.v(3): object "Clock" differs only in case from object "clock" in the same scope
+Info (10281): Verilog HDL Declaration information at GeneralDatapath.v(3): object "JMPmux" differs only in case from object "JMPMUX" in the same scope

@@ -15,7 +15,7 @@ Register_8bits registerA(Aload, mux4to1_out, data_out, Reset, Clock);
 assign Aeq0 = data_out == 0 ? 1:0;
 assign Apos = ~data_out[7];
 
-always @ (Sub)
+always @ (Sub, data_out, RAM_out)
 	if(Sub == 1)
 		subadd_out = data_out - RAM_out;
 	else

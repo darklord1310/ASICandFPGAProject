@@ -27,15 +27,16 @@ begin
 #10  Meminst = 1 ; MemWr = 1; PCload = 1; JMPmux = 1; IRload = 0;  // expect Aeq0 = 0, Apos = 1, IR = 0, data_out = 80 
 
 //read 80 from RAM address 0 
-// #10  Meminst = 1 ; MemWr = 0; 
-// #10  Asel = 2'b10; Aload = 1; //expect Aeq0 = 0, Apos = 1, data_out = 80, IR = 0
+@(negedge Clock) ; Reset = 0; //  Meminst = 1 ; MemWr = 0; 
+#10; Reset = 0;  //Asel = 2'b10; Aload = 1; //expect Aeq0 = 0, Apos = 1, data_out = 80, IR = 0
 
 //write 75 into register A and load it to RAM address 1 and increase RAM pointer to 2
-#10  Asel = 2'b01 ; Aload = 1; 
-#10  Meminst = 0 ; MemWr = 1; PCload = 1; JMPmux = 0; IRload = 0; data_in = 8'd75;   // expect Aeq0 = 0, Apos = 1, IR = 0, data_out = 75
+#10  PCload = 0; Asel = 2'b01 ; Aload = 1; data_in = 8'd75;
+#10  PCload = 1; Aload = 1; JMPmux = 0; IRload = 0;    // expect Aeq0 = 0, Apos = 1, IR = 0, data_out = 75
+#10  PCload = 0; Meminst = 0 ; MemWr = 1; 
 
 //read 80 from RAM address 0 and subtract 80 from 75
-#10  MemWr = 0; Meminst = 1; Sub = 1; PCload = 1; JMPmux = 0;  //expect Aeq0 = 0, Apos = 1; data_out = 75, IR = 0
+#10  MemWr = 0; Meminst = 1; Sub = 1;  //expect Aeq0 = 0, Apos = 1; data_out = 75, IR = 0
 
 //load -5 into register A and  write -5 to RAM address 3
 #10  Asel = 2'b00; Aload = 1;
@@ -52,6 +53,8 @@ begin
 
 //write -5 into RAM address 11011
 #10  Meminst = 0; MemWr = 1;  //expect Apos = 0, Aeq0 = 0, data_output = -5
+#10
+
 
 
 $finish;

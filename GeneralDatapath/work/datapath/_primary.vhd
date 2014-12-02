@@ -12,7 +12,7 @@ entity datapath is
         Clock           : in     vl_logic;
         Sub             : in     vl_logic;
         Asel            : in     vl_logic_vector(1 downto 0);
-        Aeq0            : out    vl_logic_vector(7 downto 0);
+        Aeq0            : out    vl_logic;
         Apos            : out    vl_logic;
         IR              : out    vl_logic_vector(2 downto 0);
         data_in         : in     vl_logic_vector(7 downto 0);

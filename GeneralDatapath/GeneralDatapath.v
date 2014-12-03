@@ -1,11 +1,14 @@
-module datapath(PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,data_in,data_out);
+module datapath(PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,data_in,data_out,RAMAddress,lower5bits_IR,outputFromPC);
 
 input PCload, JMPmux, IRload, Meminst, MemWr,Aload,Reset,Clock,Sub;
 input[7:0] data_in;
 input[1:0] Asel;
 output[7:0] data_out;
 output Apos,Aeq0;
+output[4:0] RAMAddress;
 output[2:0] IR;
+output[4:0] lower5bits_IR;
+output[4:0] outputFromPC;
 wire[7:0] RAM_out, mux4to1_out, IR_out;
 wire[4:0] increment_out, PC_out, RAM_address, mux2to1_out;
 reg[7:0] subadd_out;
@@ -28,15 +31,20 @@ Register_8bits registerIR(IRload, RAM_out ,IR_out , Reset, Clock);
 
 assign IR = IR_out[7:5];
 
+assign lower5bits_IR = IR_out[4:0];
+
 Mux2to1_5bits JMPMUX(increment_out, IR_out[4:0], JMPmux, mux2to1_out);
 
 Register_5bits registerPC(mux2to1_out, PCload, PC_out , Reset, Clock);
 
 assign increment_out = PC_out + 1'b1;
 
+assign outputFromPC = PC_out;
+
 Mux2to1_5bits MeminstRegister(PC_out, IR_out[4:0], Meminst, RAM_address);
 
 RAM_8bits RAM (RAM_address, MemWr, data_out, RAM_out, Clock);
 
+assign RAMAddress = RAM_address;
 
 endmodule

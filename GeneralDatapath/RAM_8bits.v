@@ -5,10 +5,10 @@ input [4:0] address;
 input WE, clock;
 output reg[7:0] dataOut;
 
-reg [7:0] RAM[31:0];
+reg [7:0] RAM[0:31];
 
 always @ (posedge clock)
-	if( WE == 1'b1)
+	if( WE == 1)
 		RAM[address] <= dataIn;
 	else
 		dataOut <= RAM[address];

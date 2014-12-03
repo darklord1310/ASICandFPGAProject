@@ -5,10 +5,13 @@ reg PCload, JMPmux, IRload, Meminst, MemWr,Aload,Reset,Clock,Sub;
 reg[7:0] data_in;
 reg[1:0] Asel;
 wire[7:0] data_out;
+wire[4:0] RAMAddress;
+wire[4:0] lower5bits_IR;
+wire[4:0] outputFromPC;
 wire Apos, Aeq0;
 wire[2:0] IR;
 
-datapath testing (PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,data_in,data_out);
+datapath testing (PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,data_in,data_out,RAMAddress,lower5bits_IR,outputFromPC);
 
 
 initial Clock = 0;
@@ -20,13 +23,13 @@ initial
 begin
 
 //initialize all inputs
-#0 data_in = 8'd0 ; IRload = 0 ; JMPmux = 0 ; PCload = 0 ; Meminst = 0 ; MemWr = 0 ; Asel = 2'd0 ; Aload =0 ; Reset = 1 ; Clock = 0 ; Sub = 0 ;
+#0 data_in = 8'd0 ; IRload = 0 ; JMPmux = 0 ; PCload = 0 ; Meminst = 0 ; MemWr = 0 ; Asel = 2'd0 ; Aload =0 ; Reset = 1 ; Sub = 0 ;
 
 /*Test write to register A from data_in */
 #10 data_in = 8'd5 ; Aload = 1 ; Asel = 2'd1; Reset = 0 ;// Expect output 5 , Aeq0 = 0 
 
 /*Test writing to RAM */
-#10 MemWr = 1 ; // RAM with address 0 contains 5 ;
+#10 MemWr = 1 ; Meminst = 1; // RAM with address 0 contains 5 ;
 #10 MemWr = 0 ; 
 
 /* Test Add and store to Reg A */

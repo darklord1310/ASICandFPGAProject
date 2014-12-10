@@ -1,0 +1,42 @@
+module instructionCycleOp(inputOfIR, inputOfRAM,outputFromRAM,IRload, JMPmux, PCload, Reset, Meminst, MemWr, Clock, IR, RAM_Address, lower5bits_IR, increment_output);
+
+input[7:0] inputOfIR, inputOfRAM;
+output[7:0] outputFromRAM;
+output[2:0] IR;
+input IRload, JMPmux, PCload, Reset, Meminst, MemWr, Clock;
+wire[7:0] IR_out;
+output[4:0] lower5bits_IR;
+wire[4:0] increment_out, JMPmux_out, PC_out;
+output[4:0] increment_output;
+output[4:0] RAM_Address;
+
+
+Register_8bits IRRegister(IRload, inputOFIR, IR_out, Reset, Clock);
+
+assign IR = IR_out[7:5];
+ 
+Mux2to1_5bits JMPMUX(increment_out, IR_out[4:0], JMPmux, JMPmux_out);
+
+assign lower5bits_IR = IR_out[4:0];
+
+Register_5bits registerPC(JMPmux_out, PCload, PC_out , Reset, Clock);
+
+always @ (Meminst , IR_out[4:0] , PC_out)
+    if(Meminst == 1)
+        Meminst_out = IR_out[4:0];
+    else
+        Meminst_out = PC_out;
+
+// Mux2to1_5bits Meminst_mux(PC_out, IR_out[4:0], JMPmux, Meminst_out);
+
+assign RAM_Address = Meminst_out;
+
+RAM_8bits RAM(Meminst_out, MemWr ,inputOfRAM, outputFromRAM, Clock);
+
+assign increment_output = increment_out;
+
+
+assign increment_out = PC_out + 1'b1;
+
+
+endmodule

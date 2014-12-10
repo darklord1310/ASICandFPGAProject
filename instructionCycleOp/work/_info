@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Yan Yin\ASICandFPGAProject\GeneralDatapath
+vinstructionCycleOp
+Z1 !s100 LGP[T;g;7LcA5o9AXcW0X2
+Z2 IYkBaPW4diR=HHe=C^[LIf3
+Z3 Va[J@g8_2Nh6HfU0HCDNY[0
+Z4 dE:\Yan Yin\ASICandFPGAProject\instructionCycleOp
+Z5 w1418194693
+Z6 8E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v
+Z7 FE:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v
+L0 1
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v|
+Z10 o-work work -O0
+Z11 ninstruction@cycle@op
+Z12 !s108 1418196978.129000
+Z13 !s107 E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstructionCycleOp_tb
+Z14 !s100 5;F]T@LFHJdG^C?nGj[gW0
+Z15 IilfCUz2E=^P]HGN5faXnD2
+Z16 VR6MUGWd7joDB>OW=TkRnJ3
+R4
+Z17 w1418196951
+Z18 8E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v
+Z19 FE:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v|
+R10
+Z21 ninstruction@cycle@op_tb
+Z22 !s108 1418196978.266000
+Z23 !s107 E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux2to1_5bits
+Z24 !s100 GTT3A1XF>ZQG@S1:g09WB2
+Z25 I1A^;U==APN>O:1l_AcFQU1
+Z26 VLo1nho:da[KA0XzmRCE@k3
+R4
+Z27 w1417541402
+Z28 8E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v
+Z29 FE:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v|
+R10
+Z31 n@mux2to1_5bits
+Z32 !s108 1418196978.411000
+Z33 !s107 E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMux4to1_8bits
+Z34 !s100 ha[981BJCgAi[G0<G@[CV3
+Z35 I>bKU`:b@zoOjdm]k^[mP^0
+Z36 VVWg[WNM<1WTP02>V[ZPid2
+R4
+R27
+Z37 8E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v
+Z38 FE:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v
+L0 1
+R8
+r1
+31
+Z39 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v|
+R10
+Z40 n@mux4to1_8bits
+Z41 !s108 1418196978.559000
+Z42 !s107 E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRAM_8bits
+Z43 !s100 :d3JELJJgOUa2jg5IX4dj0
+Z44 I<:zAjR:Q@`L7lSkH^@RLK2
+Z45 VcN>TlLMRz[1bNiFLXODlh2
+R4
+Z46 w1418186677
+Z47 8E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v
+Z48 FE:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v
+L0 1
+R8
+r1
+31
+Z49 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v|
+R10
+Z50 n@r@a@m_8bits
+Z51 !s108 1418196978.699000
+Z52 !s107 E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegister_5bits
+Z53 !s100 XcoaJVb9V;mMZ?4;9dJUj0
+Z54 IAG7JK[igzaMZ1ge[J2a5V2
+Z55 VGleNZ7YU?`OFC[o2`Mchh0
+R4
+R27
+Z56 8E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_5bits.v
+Z57 FE:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_5bits.v
+L0 1
+R8
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_5bits.v|
+R10
+Z59 n@register_5bits
+!i10b 1
+!s85 0
+Z60 !s108 1418196978.849000
+Z61 !s107 E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_5bits.v|
+!s101 -O0
+vRegister_8bits
+!i10b 1
+Z62 !s100 NHffTzIDa@jo^?OQ[D2`M1
+Z63 Ig7]bBMlFaC?43Q[V;ccMM1
+Z64 Vhnm^S1NYlU@lgQ1CF6OZN2
+R4
+R27
+Z65 8E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_8bits.v
+Z66 FE:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_8bits.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1418196979.101000
+!s107 E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_8bits.v|
+Z67 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_8bits.v|
+!s101 -O0
+R10
+Z68 n@register_8bits

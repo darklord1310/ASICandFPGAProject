@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="instructionCycleOp">
+		<CBX_INST_ENTRY INSTANCE_NAME="|instructionCycleOp|RAM_8bits:RAM|altsyncram:RAM_rtl_0" CBX_FILE_NAME="altsyncram_ohd1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

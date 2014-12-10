@@ -1,0 +1,16 @@
+module instructionSetOp(outputOfRAM, input_data, output_data, Asel, Aload, Reset, Clock, Sub, Aeq0, Apos, MemWr, RAMAddress);
+
+input Clock, Reset, Aload, Sub, MemWr;
+input[1:0] Asel;
+input[7:0] input_data;
+output[7:0] output_data, outputOfRAM;
+output Aeq0, Apos;
+input[4:0] RAMAddress;
+
+
+
+
+
+
+
+endmodule

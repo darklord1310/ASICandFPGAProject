@@ -16,9 +16,6 @@ entity datapath is
         Apos            : out    vl_logic;
         IR              : out    vl_logic_vector(2 downto 0);
         data_in         : in     vl_logic_vector(7 downto 0);
-        data_out        : out    vl_logic_vector(7 downto 0);
-        RAMAddress      : out    vl_logic_vector(4 downto 0);
-        lower5bits_IR   : out    vl_logic_vector(4 downto 0);
-        outputFromPC    : out    vl_logic_vector(4 downto 0)
+        dataOut         : out    vl_logic_vector(7 downto 0)
     );
 end datapath;

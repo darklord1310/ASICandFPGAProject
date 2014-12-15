@@ -5,12 +5,12 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	datapath
 
-} {} {}} {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v}
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionSetOp.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionSetOp.v}
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling module datapath
+-- Compiling module instructionSetOp
 
 Top level modules:
-	datapath
+	instructionSetOp
 
 } {} {}} {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Register_8bits.v} {1 {vlog -work work -nocovercells {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Register_8bits.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
@@ -47,6 +47,13 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	RAM_8bits
 
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionCycleOp.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionCycleOp.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module instructionCycleOp
+
+Top level modules:
+	instructionCycleOp
+
 } {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module Mux4to1_8bits
@@ -75,19 +82,19 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	datapath
 
-} {} {}} {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v} {1 {vlog -work work -nocovercells {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v}
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module Mux2to1_5bits
-
-Top level modules:
-	Mux2to1_5bits
-
 } {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module Register_8bits
 
 Top level modules:
 	Register_8bits
+
+} {} {}} {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v} {1 {vlog -work work -nocovercells {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Mux2to1_5bits
+
+Top level modules:
+	Mux2to1_5bits
 
 } {} {}} C:/Users/Student/Desktop/ASICandFPGAProject/Register_8bits/Register_8bits.v {1 {vlog -work work -nocovercells C:/Users/Student/Desktop/ASICandFPGAProject/Register_8bits/Register_8bits.v
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
@@ -110,12 +117,12 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 Top level modules:
 	RAM_8bits
 
-} {} {}} {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Register_5bits.v} {1 {vlog -work work -nocovercells {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Register_5bits.v}
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module Register_5bits
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module datapath_tb
 
 Top level modules:
-	Register_5bits
+	datapath_tb
 
 } {} {}} {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v} {1 {vlog -work work -nocovercells {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v}
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
@@ -124,12 +131,12 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	Mux4to1_8bits
 
-} {} {}} {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v}
-Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling module datapath_tb
+} {} {}} {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Register_5bits.v} {1 {vlog -work work -nocovercells {C:/Users/Student/Desktop/Yan Yin/old version FPGA project/ASICandFPGAProject/GeneralDatapath/Register_5bits.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Register_5bits
 
 Top level modules:
-	datapath_tb
+	Register_5bits
 
 } {} {}} {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_5bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_5bits.v}
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013

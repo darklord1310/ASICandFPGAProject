@@ -1,0 +1,50 @@
+{E:/Yan Yin/ASICandFPGAProject/instructionSetOp/instructionSetOp.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/instructionSetOp.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module instructionSetOp
+
+Top level modules:
+	instructionSetOp
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/RAM_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/RAM_8bits.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module RAM_8bits
+
+Top level modules:
+	RAM_8bits
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/instructionSetOp_tb.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/instructionSetOp_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module instructionSetOp_tb
+
+Top level modules:
+	instructionSetOp_tb
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Register_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Register_8bits.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module Register_8bits
+
+Top level modules:
+	Register_8bits
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Mux2to1_5bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Mux2to1_5bits.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module Mux2to1_5bits
+
+Top level modules:
+	Mux2to1_5bits
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Register_5bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Register_5bits.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module Register_5bits
+
+Top level modules:
+	Register_5bits
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Mux4to1_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionSetOp/Mux4to1_8bits.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module Mux4to1_8bits
+
+Top level modules:
+	Mux4to1_8bits
+
+} {} {}}

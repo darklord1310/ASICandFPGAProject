@@ -22,78 +22,71 @@ sv_std = $MODEL_TECH/../sv_std
 ;
 altera_mf = $MODEL_TECH/../altera/vhdl/altera_mf
 altera = $MODEL_TECH/../altera/vhdl/altera
+altera_lnsim = $MODEL_TECH/../altera/vhdl/altera_lnsim
 lpm = $MODEL_TECH/../altera/vhdl/220model
 220model = $MODEL_TECH/../altera/vhdl/220model
-max = $MODEL_TECH/../altera/vhdl/max
 maxii = $MODEL_TECH/../altera/vhdl/maxii
-stratix = $MODEL_TECH/../altera/vhdl/stratix
-stratixii = $MODEL_TECH/../altera/vhdl/stratixii
-stratixiigx = $MODEL_TECH/../altera/vhdl/stratixiigx
-hardcopyii = $MODEL_TECH/../altera/vhdl/hardcopyii
-hardcopyiii = $MODEL_TECH/../altera/vhdl/hardcopyiii
-hardcopyiv = $MODEL_TECH/../altera/vhdl/hardcopyiv
-cyclone = $MODEL_TECH/../altera/vhdl/cyclone
-cycloneii = $MODEL_TECH/../altera/vhdl/cycloneii
-cycloneiii = $MODEL_TECH/../altera/vhdl/cycloneiii
-cycloneiiils = $MODEL_TECH/../altera/vhdl/cycloneiiils
+maxv = $MODEL_TECH/../altera/vhdl/maxv
+fiftyfivenm = $MODEL_TECH/../altera/vhdl/fiftyfivenm
 sgate = $MODEL_TECH/../altera/vhdl/sgate
-stratixgx = $MODEL_TECH/../altera/vhdl/stratixgx
-altgxb = $MODEL_TECH/../altera/vhdl/altgxb
-stratixgx_gxb = $MODEL_TECH/../altera/vhdl/stratixgx_gxb
-stratixiigx_hssi = $MODEL_TECH/../altera/vhdl/stratixiigx_hssi
-arriagx_hssi = $MODEL_TECH/../altera/vhdl/arriagx_hssi
 arriaii = $MODEL_TECH/../altera/vhdl/arriaii
 arriaii_hssi = $MODEL_TECH/../altera/vhdl/arriaii_hssi
 arriaii_pcie_hip = $MODEL_TECH/../altera/vhdl/arriaii_pcie_hip
-arriagx = $MODEL_TECH/../altera/vhdl/arriagx
-altgxb_lib = $MODEL_TECH/../altera/vhdl/altgxb
+arriaiigz = $MODEL_TECH/../altera/vhdl/arriaiigz
+arriaiigz_hssi = $MODEL_TECH/../altera/vhdl/arriaiigz_hssi
+arriaiigz_pcie_hip = $MODEL_TECH/../altera/vhdl/arriaiigz_pcie_hip
 stratixiv = $MODEL_TECH/../altera/vhdl/stratixiv
 stratixiv_hssi = $MODEL_TECH/../altera/vhdl/stratixiv_hssi
 stratixiv_pcie_hip = $MODEL_TECH/../altera/vhdl/stratixiv_pcie_hip
 cycloneiv = $MODEL_TECH/../altera/vhdl/cycloneiv
 cycloneiv_hssi = $MODEL_TECH/../altera/vhdl/cycloneiv_hssi
 cycloneiv_pcie_hip = $MODEL_TECH/../altera/vhdl/cycloneiv_pcie_hip
-hardcopyiv_hssi = $MODEL_TECH/../altera/vhdl/hardcopyiv_hssi
-hardcopyiv_pcie_hip = $MODEL_TECH/../altera/vhdl/hardcopyiv_pcie_hip
+cycloneive = $MODEL_TECH/../altera/vhdl/cycloneive
+stratixv = $MODEL_TECH/../altera/vhdl/stratixv
+stratixv_hssi = $MODEL_TECH/../altera/vhdl/stratixv_hssi
+stratixv_pcie_hip = $MODEL_TECH/../altera/vhdl/stratixv_pcie_hip
+arriavgz = $MODEL_TECH/../altera/vhdl/arriavgz
+arriavgz_hssi = $MODEL_TECH/../altera/vhdl/arriavgz_hssi
+arriavgz_pcie_hip = $MODEL_TECH/../altera/vhdl/arriavgz_pcie_hip
+arriav = $MODEL_TECH/../altera/vhdl/arriav
+cyclonev = $MODEL_TECH/../altera/vhdl/cyclonev
 ;
 ; Verilog Section
 ;
 altera_mf_ver = $MODEL_TECH/../altera/verilog/altera_mf
 altera_ver = $MODEL_TECH/../altera/verilog/altera
+altera_lnsim_ver = $MODEL_TECH/../altera/verilog/altera_lnsim
 lpm_ver = $MODEL_TECH/../altera/verilog/220model
 220model_ver = $MODEL_TECH/../altera/verilog/220model
-max_ver = $MODEL_TECH/../altera/verilog/max
 maxii_ver = $MODEL_TECH/../altera/verilog/maxii
-stratix_ver = $MODEL_TECH/../altera/verilog/stratix
-stratixii_ver = $MODEL_TECH/../altera/verilog/stratixii
-stratixiigx_ver = $MODEL_TECH/../altera/verilog/stratixiigx
-arriagx_ver = $MODEL_TECH/../altera/verilog/arriagx
-hardcopyii_ver = $MODEL_TECH/../altera/verilog/hardcopyii
-hardcopyiii_ver = $MODEL_TECH/../altera/verilog/hardcopyiii
-hardcopyiv_ver = $MODEL_TECH/../altera/verilog/hardcopyiv
-cyclone_ver = $MODEL_TECH/../altera/verilog/cyclone
-cycloneii_ver = $MODEL_TECH/../altera/verilog/cycloneii
-cycloneiii_ver = $MODEL_TECH/../altera/verilog/cycloneiii
-cycloneiiils_ver = $MODEL_TECH/../altera/verilog/cycloneiiils
+maxv_ver = $MODEL_TECH/../altera/verilog/maxv
+fiftyfivenm_ver = $MODEL_TECH/../altera/verilog/fiftyfivenm
 sgate_ver = $MODEL_TECH/../altera/verilog/sgate
-stratixgx_ver = $MODEL_TECH/../altera/verilog/stratixgx
-altgxb_ver = $MODEL_TECH/../altera/verilog/altgxb
-stratixgx_gxb_ver = $MODEL_TECH/../altera/verilog/stratixgx_gxb
-stratixiigx_hssi_ver = $MODEL_TECH/../altera/verilog/stratixiigx_hssi
-arriagx_hssi_ver = $MODEL_TECH/../altera/verilog/arriagx_hssi
 arriaii_ver = $MODEL_TECH/../altera/verilog/arriaii
 arriaii_hssi_ver = $MODEL_TECH/../altera/verilog/arriaii_hssi
 arriaii_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriaii_pcie_hip
-stratixiii_ver = $MODEL_TECH/../altera/verilog/stratixiii
-stratixiii = $MODEL_TECH/../altera/vhdl/stratixiii
+arriaiigz_ver = $MODEL_TECH/../altera/verilog/arriaiigz
+arriaiigz_hssi_ver = $MODEL_TECH/../altera/verilog/arriaiigz_hssi
+arriaiigz_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriaiigz_pcie_hip
 stratixiv_ver = $MODEL_TECH/../altera/verilog/stratixiv
 stratixiv_hssi_ver = $MODEL_TECH/../altera/verilog/stratixiv_hssi
 stratixiv_pcie_hip_ver = $MODEL_TECH/../altera/verilog/stratixiv_pcie_hip
+stratixv_ver = $MODEL_TECH/../altera/verilog/stratixv
+stratixv_hssi_ver = $MODEL_TECH/../altera/verilog/stratixv_hssi
+stratixv_pcie_hip_ver = $MODEL_TECH/../altera/verilog/stratixv_pcie_hip
+arriavgz_ver = $MODEL_TECH/../altera/verilog/arriavgz
+arriavgz_hssi_ver = $MODEL_TECH/../altera/verilog/arriavgz_hssi
+arriavgz_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriavgz_pcie_hip
+arriav_ver = $MODEL_TECH/../altera/verilog/arriav
+arriav_hssi_ver = $MODEL_TECH/../altera/verilog/arriav_hssi
+arriav_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriav_pcie_hip
+cyclonev_ver = $MODEL_TECH/../altera/verilog/cyclonev
+cyclonev_hssi_ver = $MODEL_TECH/../altera/verilog/cyclonev_hssi
+cyclonev_pcie_hip_ver = $MODEL_TECH/../altera/verilog/cyclonev_pcie_hip
 cycloneiv_ver = $MODEL_TECH/../altera/verilog/cycloneiv
 cycloneiv_hssi_ver = $MODEL_TECH/../altera/verilog/cycloneiv_hssi
 cycloneiv_pcie_hip_ver = $MODEL_TECH/../altera/verilog/cycloneiv_pcie_hip
-hardcopyiv_hssi_ver = $MODEL_TECH/../altera/verilog/hardcopyiv_hssi
-hardcopyiv_pcie_hip_ver = $MODEL_TECH/../altera/verilog/hardcopyiv_pcie_hip
+cycloneive_ver = $MODEL_TECH/../altera/verilog/cycloneive
 
 work = work
 [vcom]
@@ -102,6 +95,7 @@ work = work
 ; Value of 0 or 1987 for VHDL-1987.
 ; Value of 1 or 1993 for VHDL-1993.
 ; Default or value of 2 or 2002 for VHDL-2002.
+; Default or value of 3 or 2008 for VHDL-2008.
 VHDL93 = 2002
 
 ; Show source line containing error. Default is off.
@@ -208,7 +202,7 @@ Explicit = 1
 [vsim]
 ; Simulator resolution
 ; Set to fs, ps, ns, us, ms, or sec with optional prefix of 1, 10, or 100.
-resolution = 1ps
+Resolution = ps
 
 ; User time unit for run commands
 ; Set to default, fs, ps, ns, us, ms, or sec. The default is to use the
@@ -218,7 +212,7 @@ resolution = 1ps
 UserTimeUnit = default
 
 ; Default run length
-RunLength = 100 ps
+RunLength = 100 ns
 
 ; Maximum iterations that can be run without advancing simulation time
 IterationLimit = 5000
@@ -408,21 +402,25 @@ ConcurrentFileLimit = 40
 Project_Version = 6
 Project_DefaultLib = work
 Project_SortMethod = unused
-Project_Files_Count = 7
-Project_File_0 = C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v
-Project_File_P_0 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417590412 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 0 dont_compile 0 cover_expr 0 cover_stmt 0
-Project_File_1 = C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v
-Project_File_P_1 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417588212 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 4 dont_compile 0 cover_expr 0 cover_stmt 0
-Project_File_2 = C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v
-Project_File_P_2 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 folder {Top Level} last_compile 1417592532 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 1 dont_compile 0 cover_expr 0 cover_stmt 0
-Project_File_3 = C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v
-Project_File_P_3 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417586190 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 2 dont_compile 0 cover_expr 0 cover_stmt 0
-Project_File_4 = C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
-Project_File_P_4 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417586190 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 6 dont_compile 0 cover_expr 0 cover_stmt 0
-Project_File_5 = C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
-Project_File_P_5 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417586190 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 3 dont_compile 0 cover_expr 0 cover_stmt 0
-Project_File_6 = C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_5bits.v
-Project_File_P_6 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417586190 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 5 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_Files_Count = 9
+Project_File_0 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v
+Project_File_P_0 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1418186677 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 6 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_1 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionSetOp.v
+Project_File_P_1 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1418654127 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 3 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_2 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionCycleOp.v
+Project_File_P_2 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1418653979 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 2 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_3 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v
+Project_File_P_3 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 folder {Top Level} cover_branch 0 cover_fsm 0 last_compile 1418656549 vlog_noload 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 cover_optlevel 3 vlog_showsource 0 vlog_hazard 0 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 0 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_4 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
+Project_File_P_4 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417541402 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 8 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_5 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v
+Project_File_P_5 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417541402 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 4 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_6 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v
+Project_File_P_6 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1418656070 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 1 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_7 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_5bits.v
+Project_File_P_7 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417541402 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 7 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_8 = E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
+Project_File_P_8 = cover_toggle 0 vlog_protect 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 last_compile 1417541402 vlog_noload 0 cover_branch 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 vlog_hazard 0 vlog_showsource 0 cover_optlevel 3 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 5 dont_compile 0 cover_expr 0 cover_stmt 0
 Project_Sim_Count = 0
 Project_Folder_Count = 0
 Echo_Compile_Output = 0

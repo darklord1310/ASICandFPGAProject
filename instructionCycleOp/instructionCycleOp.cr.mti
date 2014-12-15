@@ -1,30 +1,16 @@
-{E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v}
-Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling module RAM_8bits
-
-Top level modules:
-	RAM_8bits
-
-} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v}
+{E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp.v}
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 -- Compiling module instructionCycleOp
 
 Top level modules:
 	instructionCycleOp
 
-} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v}
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/RAM_8bits.v}
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling module instructionCycleOp_tb
+-- Compiling module RAM_8bits
 
 Top level modules:
-	instructionCycleOp_tb
-
-} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v}
-Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling module Mux2to1_5bits
-
-Top level modules:
-	Mux2to1_5bits
+	RAM_8bits
 
 } {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_8bits.v}
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
@@ -33,12 +19,19 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 Top level modules:
 	Register_8bits
 
-} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v}
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux2to1_5bits.v}
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
--- Compiling module Mux4to1_8bits
+-- Compiling module Mux2to1_5bits
 
 Top level modules:
-	Mux4to1_8bits
+	Mux2to1_5bits
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/instructionCycleOp_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module instructionCycleOp_tb
+
+Top level modules:
+	instructionCycleOp_tb
 
 } {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_5bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Register_5bits.v}
 Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
@@ -46,5 +39,12 @@ Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
 
 Top level modules:
 	Register_5bits
+
+} {} {}} {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v} {1 {vlog -work work {E:/Yan Yin/ASICandFPGAProject/instructionCycleOp/Mux4to1_8bits.v}
+Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+-- Compiling module Mux4to1_8bits
+
+Top level modules:
+	Mux4to1_8bits
 
 } {} {}}

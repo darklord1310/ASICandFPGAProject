@@ -1,22 +1,17 @@
 module datapath_tb;
-//(PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,clock,data_in,data_out);
 
 reg PCload, JMPmux, IRload, Meminst, MemWr,Aload,Reset,Clock,Sub;
 reg[7:0] data_in;
 reg[1:0] Asel;
-wire[7:0] data_out;
-wire[4:0] RAMAddress;
-wire[4:0] lower5bits_IR;
-wire[4:0] outputFromPC;
+wire[7:0] dataOut;
 wire Apos, Aeq0;
 wire[2:0] IR;
 
-datapath testing (PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,data_in,data_out,RAMAddress,lower5bits_IR,outputFromPC);
+datapath testing (PCload,JMPmux,IRload,Meminst,MemWr,Aload,Reset,Clock,Sub,Asel,Aeq0,Apos,IR,data_in,dataOut);
 
 
 initial Clock = 0;
 always #5 Clock = ~Clock;
-
 
 
 initial

@@ -4,112 +4,180 @@ K3
 cModel Technology
 Z0 dC:\Users\Student\Desktop\ASICandFPGAProject\GeneralDatapath
 vdatapath
-I0g0]Wd24Am<>RS8<BE6Y?3
-V]FB4CZFh11zI0YI45YS?[1
-w1417590412
-8C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v
-FC:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v
+Z1 INJbAomIFP6_gFRi^UH47U2
+Z2 VS_MRd;H_k5hZWVBUAig[n3
+Z3 dE:\Yan Yin\ASICandFPGAProject\GeneralDatapath
+Z4 w1418656549
+Z5 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v
+Z6 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v
 L0 1
-Z1 OV;L;6.5b;42
+Z7 OV;L;10.1e;51
 r1
 31
-Z2 !s102 -nocovercells
-Z3 o-work work -nocovercells -O0
-!s100 ZzE];O7D8;8B;oZi5YzV32
+Z8 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v|
+Z9 o-work work -O0
+Z10 !s100 h03[AfY2ELN0WQ;@Q]TcZ2
+Z11 !s108 1418656553.527000
+Z12 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath.v|
+!i10b 1
 !s85 0
 !s101 -O0
 vdatapath_tb
-I_8RmaF3N_=EdRDm@`3SVK2
-VEWO?_?OX`2EgcWCd@z7jn1
-w1417592532
-8C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v
-FC:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v
+Z13 !s100 ^7YOQ27[kQ48M1?oU9Qkz2
+Z14 I8c4WYWTBBelLo]^UFK0gi1
+Z15 VEWO?_?OX`2EgcWCd@z7jn1
+R3
+Z16 w1418656070
+Z17 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v
+Z18 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v
 L0 1
-R1
+R7
 r1
 31
-R2
+Z19 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v|
+R9
+Z20 !s108 1418656553.652000
+Z21 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/GeneralDatapath_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstructionCycleOp
+Z22 !s100 `TbiKcG<``ObA4K`0?:eR2
+Z23 IdXad;NFBb8C8VGC70b`?g2
+Z24 Va[J@g8_2Nh6HfU0HCDNY[0
 R3
-!s100 dHAoF?^]XK7RF]OanmYCd3
+Z25 w1418653979
+Z26 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionCycleOp.v
+Z27 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionCycleOp.v
+L0 1
+R7
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionCycleOp.v|
+R9
+Z29 ninstruction@cycle@op
+Z30 !s108 1418656553.777000
+Z31 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionCycleOp.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vinstructionSetOp
+Z32 !s100 ]]`gZgSa<VC6:MZ_>;Gig2
+Z33 I]e[8e[0EzR>hZKjIf@H?U2
+Z34 VHUEfEeQ;I=];G?RU>lE]o3
+R3
+Z35 w1418654127
+Z36 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionSetOp.v
+Z37 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionSetOp.v
+L0 1
+R7
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionSetOp.v|
+R9
+Z39 ninstruction@set@op
+Z40 !s108 1418656553.918000
+Z41 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/instructionSetOp.v|
+!i10b 1
 !s85 0
 !s101 -O0
 vMux2to1_5bits
-IH^YD0>[zP:Jf`0fH=4R^]2
-VLo1nho:da[KA0XzmRCE@k3
-Z4 w1417586190
-8C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v
-FC:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v
+Z42 !s100 Dog9?ehBj>zGel`8]HaR@2
+Z43 Ib>^2zeCgKKKiJ83BSN9`M1
+Z44 VLo1nho:da[KA0XzmRCE@k3
+R3
+Z45 w1417541402
+Z46 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v
+Z47 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v
 L0 1
-R1
+R7
 r1
 31
-R2
-R3
-n@mux2to1_5bits
-!s100 `SPQN13c4V:@0<fVRgio:0
+Z48 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v|
+R9
+Z49 n@mux2to1_5bits
+Z50 !s108 1418656554.043000
+Z51 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux2to1_5bits.v|
+!i10b 1
 !s85 0
 !s101 -O0
 vMux4to1_8bits
-ILUcRQVVDg9E=7@RT7<SlB1
-VVWg[WNM<1WTP02>V[ZPid2
-R4
-8C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
-FC:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
+Z52 !s100 MICUVoh8E2elY2cZ>@W5m2
+Z53 IbC6`4f^k5KJlGbjlNTTW]3
+Z54 VVWg[WNM<1WTP02>V[ZPid2
+R3
+R45
+Z55 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
+Z56 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v
 L0 1
-R1
+R7
 r1
 31
-R2
-R3
-n@mux4to1_8bits
-!s100 eEKoI@=VODYV3:Xc=hm<61
+Z57 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v|
+R9
+Z58 n@mux4to1_8bits
+Z59 !s108 1418656554.168000
+Z60 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Mux4to1_8bits.v|
+!i10b 1
 !s85 0
 !s101 -O0
 vRAM_8bits
-Ib[Tm0>J0HT8jzZfF?QLNU1
-VcN>TlLMRz[1bNiFLXODlh2
-w1417588212
-8C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v
-FC:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v
+Z61 !s100 1i>Y9E8Z]@Q@mlD4DClGN2
+Z62 I`XBXhcTl5H>4SlD0oi38i1
+Z63 VcN>TlLMRz[1bNiFLXODlh2
+R3
+Z64 w1418186677
+Z65 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v
+Z66 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v
 L0 1
-R1
+R7
 r1
 31
-R2
-R3
-n@r@a@m_8bits
-!s100 6:c2El5JPl9oE?Ja^:?832
+Z67 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v|
+R9
+Z68 n@r@a@m_8bits
+Z69 !s108 1418656554.324000
+Z70 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/RAM_8bits.v|
+!i10b 1
 !s85 0
 !s101 -O0
 vRegister_5bits
-I>WIW4Om668ogW7P5:<7jJ1
-VGleNZ7YU?`OFC[o2`Mchh0
-R4
-8C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_5bits.v
-FC:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_5bits.v
+Z71 !s100 km>2jg5]7FFNVKFQl7PaV1
+Z72 IQn8eD[aW@LQNF5c[Re@df2
+Z73 VGleNZ7YU?`OFC[o2`Mchh0
+R3
+R45
+Z74 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_5bits.v
+Z75 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_5bits.v
 L0 1
-R1
+R7
 r1
 31
-R2
-R3
-n@register_5bits
-!s100 62A2EmlI4`@Y=h[>_VRmf0
+Z76 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_5bits.v|
+R9
+Z77 n@register_5bits
+!i10b 1
 !s85 0
+Z78 !s108 1418656554.464000
+Z79 !s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_5bits.v|
 !s101 -O0
 vRegister_8bits
-!s100 OSf09UQZ1H<fT;KCSMh^21
-IJGI[:VXPG65PIbcB:SW1Z2
-Vhnm^S1NYlU@lgQ1CF6OZN2
-R4
-8C:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
-FC:/Users/Student/Desktop/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
+!i10b 1
+Z80 !s100 =NLel0W@dKS7i=JCUebcz0
+Z81 Ik_jk5=2fbgB0l44zmUE_T0
+Z82 Vhnm^S1NYlU@lgQ1CF6OZN2
+R3
+R45
+Z83 8E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
+Z84 FE:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_8bits.v
 L0 1
-R1
+R7
 r1
 !s85 0
 31
+!s108 1418656554.652000
+!s107 E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_8bits.v|
+Z85 !s90 -reportprogress|300|-work|work|E:/Yan Yin/ASICandFPGAProject/GeneralDatapath/Register_8bits.v|
 !s101 -O0
-R2
-R3
-n@register_8bits
+R9
+Z86 n@register_8bits
